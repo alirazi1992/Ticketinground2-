@@ -71,3 +71,51 @@ npm install
 pnpm install
 # or
 yarn install
+```
+---
+
+## 🏗 Architecture
+
+This project follows **Clean Architecture**:
+
+- **App / UI Layer** — pages, components, layouts, presentation logic
+
+- **Domain Layer** — ticket models, validation schemas, business rules
+
+- **Data Layer** — API calls, WebSocket services, persistence logic
+
+- **Shared Layer** — hooks, utils, global styles, constants
+
+This makes the codebase **scalable, testable, and easy to maintain**.
+
+---
+
+## 📌 Usage
+
+- Log in as **Client** → create tickets, view status, message technicians
+
+- Log in as **Admin** → assign tickets, manage users, monitor dashboard
+
+- Log in as **Technician** → view assigned tickets, reply, update status
+
+- Toggle **Dark / Light** theme
+
+- Switch **Farsi ↔ English**
+
+---
+
+## 🗺 Roadmap
+
+✅ Multi-role dashboards (Client / Admin / Technician)
+
+✅ Multi-step ticket forms with validation
+
+🔲 Real-time WebSocket updates (live notifications)
+
+🔲 Admin analytics dashboard (ticket stats, response time, etc.)
+
+🔲 UI/UX polishing & animations
+
+🔲 Deployment & CI/CD pipelines
+
+🔲 Add more languages beyond Farsi/English
